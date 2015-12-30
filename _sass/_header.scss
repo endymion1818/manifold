@@ -1,0 +1,37 @@
+.site-title {
+  color: white;
+  text-decoration: none;
+
+  > img {
+    width: 4em;
+    height:auto;
+  }
+}
+nav.site-nav {
+  width: 100%;
+
+  > ul.priority {
+    padding-left: 0;
+    display: flex;
+    width: 40%;
+
+    > li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0.5em 16%;
+
+      > a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@media (min-width: $breakpoint-large){
+  .site-title > img {
+    width: 8em;
+  }
+  .site-nav {
+    float: right;
+  }
+}

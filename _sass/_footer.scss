@@ -1,0 +1,21 @@
+footer.site-footer {
+  background: $main;
+  color: white;
+
+  .contact-list {
+    padding-left: 0;
+
+    > li {
+      list-style-type: none;
+
+      > a {
+        color: $sub;
+
+        &:hover,
+        &:active {
+          color: $subAccent;
+        }
+      }
+    }
+  }
+}

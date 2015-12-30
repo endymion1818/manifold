@@ -1,0 +1,36 @@
+---
+layout: home
+---
+
+<div class="home">
+  <section class="introduction">
+    <div class="content">
+      <h1 class="page-heading">MANIFOLD</h1>
+      <h2 class="page-subhead"> Web design + development <span class="focus">done right</span>.</h2>
+      <h3>We turn your online presence into an effective sales funnel</h3>
+      <p>So, your website represents your brand online. Great. Could it do more for you? Could you increase revenue and decrease order friction, maximising your return on investment?</p>
+      <p>This is where we specialise. Let us help.</p>
+      <a class="btn btn-action">&gt; More about us</a>
+  </div>
+  </section>
+  <hr/>
+  <section class="post-list">
+  <h2>Recent Projects:</h2>
+    {% for post in site.posts %}
+      <article>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.excerpt }}</p>
+      </article>
+      <hr/>
+    {% endfor %}
+  </section>
+  <section class="conclusion">
+    <div class="content">
+      <h2 class="page-subhead"> Web design + development <span class="focus">done right</span>.</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quis, non hic impedit et, voluptatum optio sit debitis, dignissimos quaerat quasi earum. Doloribus corporis, asperiores molestias laboriosam architecto, tempora est ad eveniet repellendus maiores facilis soluta commodi in quae dolorem tempore labore vel voluptas eligendi fuga provident?</p>
+      <a class="btn btn-action">&gt; Contact!</a>
+  </div>
+  </section>
+</div>

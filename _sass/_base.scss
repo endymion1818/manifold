@@ -1,0 +1,17 @@
+$main: #333;
+$mainAccent: #080808;
+$sub: #f7ebb9;
+$subAccent: #f8de6f;
+$focus: purple;
+$focusAccent: purple;
+$feint: #ddd;
+
+$iGotRhythym: 0.5em;
+$breakpoint-large: 40em;
+
+@import '_type';
+@import '_header';
+@import '_footer';
+@import '_buttons';
+
+@import '_page_home';

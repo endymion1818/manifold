@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:$main;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2em;
+
+  > .small {
+    font-size: 0.8em;
+  }
+}
+.focus {
+  color: $focus;
+}

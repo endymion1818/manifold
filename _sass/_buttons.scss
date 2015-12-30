@@ -1,0 +1,21 @@
+.btn {
+  padding: 2% 0.5em;
+  display: inline-block;
+  transition: all 0.5s ease;
+
+  &:hover,
+  &:active {
+    transition: all 0.5s ease;
+  }
+}
+.btn-action {
+  border: 1px solid $main;
+  border-radius: 4px;
+  background-color: white;
+
+  &:hover,
+  &:active {
+    background-color: $main;
+    color: white;
+  }
+}
