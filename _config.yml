@@ -7,7 +7,7 @@
 
 # Site settings
 title: MANIFOLD
-email: ben@manifold-design.co.uk
+email: connect@manifold-design.co.uk
 description: Web design + development done right.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://manifold-design.co.uk" # the base hostname & protocol for your site

@@ -19,3 +19,11 @@ footer.site-footer {
     }
   }
 }
+@media (min-width: $breakpoint-large){
+  footer {
+    position: fixed;
+    width: 20%;
+    z-index: 10;
+    bottom: 0;
+  }
+}

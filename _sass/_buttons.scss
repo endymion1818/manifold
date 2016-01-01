@@ -1,7 +1,8 @@
 .btn {
-  padding: 2% 0.5em;
+  padding: 0.5em;
   display: inline-block;
   transition: all 0.5s ease;
+  text-decoration: none;
 
   &:hover,
   &:active {
@@ -11,11 +12,12 @@
 .btn-action {
   border: 1px solid $main;
   border-radius: 4px;
-  background-color: white;
+  background-color: $main;
+  color: white;
 
   &:hover,
   &:active {
-    background-color: $main;
-    color: white;
+    background-color: white;
+    color: black;
   }
 }
