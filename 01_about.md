@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
+permalink: "/about/"
 ---
 
 MANIFOLD is the brainchild of Benjamin Read, an award-winning designer / developer from Hertfordshire. Ben is a student of Bauhaus and minimalist design, who constantly reflects on the heyday of the company he worships, Apple.
@@ -21,3 +21,4 @@ After years of research, whilst still practicing web development to a high stand
 Armed with these objectives, MANIFOLD was born.
 
 <a class="btn btn-action" title="services" href="/services">> How it's done</a>
+test
